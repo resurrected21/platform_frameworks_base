@@ -5581,6 +5581,11 @@ public final class Settings {
          */
         public static final String CHARGING_ANIMATION = "charging_animation";
 
+	/**
+         * @hide
+         */
+        public static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
+
         /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
@@ -5765,6 +5770,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(ANIM_TILE_DURATION);
             PRIVATE_SETTINGS.add(ANIM_TILE_INTERPOLATOR);
             PRIVATE_SETTINGS.add(NOTIFICATION_GUTS_KILL_APP_BUTTON);
+	    PRIVATE_SETTINGS.add(USE_OLD_MOBILETYPE);
         }
 
         /**
